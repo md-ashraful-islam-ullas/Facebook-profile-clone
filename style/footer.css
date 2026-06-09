@@ -1,0 +1,25 @@
+.footer {
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 52px;
+    border-top-style: solid;
+    border-color: white;
+    border-width: .5px;
+}
+
+.footer img {
+    height: 30px;
+    padding-top: 12px;
+}
+
+.home {
+    margin-left: 10px;
+}
+
+.account {
+    margin-right: 10px;
+}

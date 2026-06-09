@@ -1,0 +1,26 @@
+.nav-bar {
+    font-weight: 400;
+    margin-top: 20px;
+
+}
+
+.all,
+.photos,
+.reels {
+    display: inline-block;
+}
+
+.all {
+    margin-left: 18px;
+    background-color: rgba(29, 133, 252, 0.2);
+    color: rgb(117, 182, 255);
+    padding: 10px 14px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.photos,
+.reels {
+    padding-left: 17px;
+    color: rgb(177, 177, 177);
+}
