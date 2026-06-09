@@ -99,6 +99,10 @@
     margin-top: 5px;
 }
 
+.number {
+    font-weight: bold;
+}
+
 .keyboard-down-div {
     position: absolute;
     border-style: solid;

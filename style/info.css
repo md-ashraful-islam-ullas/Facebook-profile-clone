@@ -43,3 +43,71 @@
 .user-gender-text {
     font-weight: 400;
 }
+
+
+.ahc-picture, 
+.plsc-picture {
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    object-fit: cover;
+}
+
+.ahc-container,
+.plsc-container {
+    display: flex;
+    align-items: center;
+    margin-left: 18px;
+}
+
+.ahc-text,
+.plsc-text {
+    color: white;
+    font-size: 15px;
+}
+
+.plsc-pass-year {
+    color: rgb(177, 177, 177);
+    font-size: 13px;
+    padding-top: 5px;
+}
+
+.ahc-text,
+.plsc-inner-div {
+    padding-left: 10px;
+}
+
+.ahc-container,
+.plsc-container p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.ahc-container {
+    margin-top: 10px;
+}
+
+.plsc-container {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.link-container,
+.contact-container {
+    display: flex;
+    align-items: center;
+    margin-left: 22px;
+    margin-top: 8px;
+}
+
+.link-icon,
+.allternate-mail {
+    height: 30px;
+}
+
+.link-text,
+.contact-text {
+    padding-left: 15px;
+    color: white;
+    font-size: 15px;
+}
