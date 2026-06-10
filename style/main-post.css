@@ -1,0 +1,28 @@
+.top-post-id-text {
+    display: inline;
+}
+
+.top-post-id {
+    display: grid;
+    grid-template-columns: 50px 260px 30px;
+    margin-left: 20px;
+}
+
+.inner-all-top-post p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.top-post-id-name {
+    color: white;
+    padding-bottom: 3px;
+}
+
+.globe-icon {
+    height: 12px;
+}
+
+.top-post-id-text {
+    font-size: 14px;
+    color: rgb(177, 177, 177);
+}
