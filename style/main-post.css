@@ -26,3 +26,111 @@
     font-size: 14px;
     color: rgb(177, 177, 177);
 }
+
+.post-container {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(177, 177, 177);
+    margin-top: 20px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    height: 100px;
+    width: 320px;
+    margin-left: 18px;
+    margin-right: 10px;
+    padding-top: 12px;
+    padding-left: 10px;
+    border-bottom-color: rgb(28, 30, 33);
+}
+
+.plaantik-picture {
+    height: 35px;
+    width: 35px;
+    object-fit: cover;
+    border-radius: 18px;
+
+}
+
+.post-container p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#follow {
+    color: rgb(8, 102, 255);
+}
+
+.name-container {
+    display: grid;
+    grid-template-columns: 50px 200px;
+}
+
+.description {
+    padding-top: 10px;
+    color: white;
+    line-height: 20px;
+}
+
+.norway-picture {
+    height: 220px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.react-container {
+    margin-top: 5px;
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.love-icon,
+.heart-icon {
+    height: 20px;
+    position: relative;
+    align-items: center;
+}
+
+.love-icon {
+    z-index: 5;
+}
+
+.heart-icon {
+    margin-left: -10px;
+    z-index: 4;
+}
+
+.react-text {
+    padding-left: 7px;
+    color: rgb(177, 177, 177);
+    margin-top: 0px;
+    margin-bottom: 0;
+}
+
+.last-item {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 15px;
+}
+
+.last-item p {
+    display: inline;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 7px;
+    color: rgb(177, 177, 177);
+    font-size: 14px;
+}
+
+.like-section,
+.comment-section,
+.share-section {
+    display: flex;
+    align-items: center;
+}
+
+.last-item-icon {
+    height: 20px;
+}
